@@ -1,0 +1,136 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: burlywood;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_header_b1 {
+    height: 105px;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../img/t_repeat.jpg);
+}
+
+.iconka {
+    background-image: url(../img/logo.jpg);
+    height: 105px;
+    width: 365px;
+    z-index: 2;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.injection_left {
+    position: absolute;
+    top: 143px;
+    left: 0px;
+    background-image: url(../img/TLWidget_left.jpg);
+    width: 18px;
+    height: 13px;
+}
+
+.upper_palka {
+    background-image: url(../img/upper_up.jpg);
+    top: 143px;
+    position: absolute;
+    left: 18px;
+    width: 184px;
+    height: 18px;
+}
+
+.injection_right {
+    position: absolute;
+    top: 143px;
+    left: 202px;
+    width: 0px;
+    background-image: url(../img/TRWidget_right.jpg);
+    width: 18px;
+    height: 13px;
+}
+
+.left_palka {
+    background-image: url(../img/left_palka.jpg);
+    position: absolute;
+    top: 155px;
+    width: 18px;
+    height: 256px;
+}
+
+.main_menu {
+    padding-left: 20px;
+    padding-top: 48px;
+    width: 182px;
+    
+}
+
+.right_palka {
+    position: absolute;
+    background-image: url(../img/right_palka.jpg);
+    left: 202px;
+    width: 18px;
+    height: 256px;
+    top: 155px;
+}
+
+.down_palka {
+    position: absolute;
+    left: 18px;
+    top: 405px;
+    width: 184px;
+    height: 18px;
+    background-image: url(../img/down_palka.jpg);
+}
+
+.injection_down_left {
+    background-image: url(../img/injection_down_left.jpg);
+    top: 410px;
+    width: 18px;
+    height: 13px;
+    position: absolute;
+}
+
+.injection_down_right {
+    background-image: url(../img/injection_down_right.jpg);
+    top: 409px;
+    width: 21px;
+    height: 14px;
+    position: absolute;
+    left: 199px;
+}
+
+.list_games,
+a {
+    color: #ffdd33;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content {
+    margin: 30px 0 10px 20px;
+    width: auto;
+    color: #fff;
+}
+
+.main_content iframe body {
+    color: white !important;
+}
+
+.main_frame {
+    width: calc(90vw - 180px);
+    height: 70vh;
+}
